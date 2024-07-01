@@ -1,5 +1,6 @@
 using { user as my } from '../db/schema';
 
+
 @path: '/service/UserDataSvcs'
 @requires: 'authenticated-user'
 service UserService {
@@ -7,5 +8,5 @@ service UserService {
 
     annotate User with @odata.draft.enabled;
 
-    action updateStatus( User : User );
+    action updateStatus(id : User:ID ) returns { status: User:status };
 }

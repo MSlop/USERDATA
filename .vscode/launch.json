@@ -8,7 +8,7 @@
       "args": [
         "run",
         "--port",
-        "4003"
+        "4002"
       ],
       "console": "internalConsole",
       "internalConsoleOptions": "openOnSessionStart",

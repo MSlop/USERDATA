@@ -15,28 +15,24 @@ annotate service.User with @(
             },
             {
                 $Type : 'UI.DataField',
-                Label : '{i18n>FirstName}e',
+                Label : '{i18n>FirstName}',
                 Value : firstName,
             },
             {
                 $Type : 'UI.DataField',
-                Label : '{i18n>LastName}e',
+                Label : '{i18n>LastName}',
                 Value : lastName,
             },
             {
                 $Type : 'UI.DataField',
-                Label : '{i18n>CountryCode2}',
-                Value : country_code,
-            },
-            {
-                $Type : 'UI.DataField',
-                Label : '{i18n>TelegramId}d',
+                Label : '{i18n>TelegramId}',
                 Value : telegramId,
             },
             {
                 $Type : 'UI.DataField',
                 Label : '{i18n>Status}',
                 Value : status,
+                Criticality : statusCrit,
             },
         ],
     },
@@ -51,28 +47,23 @@ annotate service.User with @(
     UI.LineItem : [
         {
             $Type : 'UI.DataField',
-            Label : '{i18n>UserName}e',
+            Label : '{i18n>UserName}',
             Value : userName,
         },
         {
             $Type : 'UI.DataField',
-            Label : '{i18n>Birthdate}e',
+            Label : '{i18n>Birthdate}',
             Value : birthDate,
         },
         {
             $Type : 'UI.DataField',
-            Label : '{i18n>FirstName}e',
+            Label : '{i18n>FirstName}',
             Value : firstName,
         },
         {
             $Type : 'UI.DataField',
-            Label : '{i18n>LastName}e',
+            Label : '{i18n>LastName}',
             Value : lastName,
-        },
-        {
-            $Type : 'UI.DataField',
-            Label : '{i18n>CountryCode1}',
-            Value : country_code,
         },
     ],
 );

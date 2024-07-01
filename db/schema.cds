@@ -1,7 +1,7 @@
 namespace user;
 
 using {
-    Country ,
+    //Country ,
     cuid ,
     managed ,
 } from '@sap/cds/common';
@@ -13,9 +13,10 @@ entity User : cuid, managed {
     //age : calculated
     firstName : String;
     lastName : String;
-    country : Country;
+    //country : Country;
     telegramId : String;
-    status : String default 'None';
+    status : String @readonly;
+    virtual statusCrit : Integer;
 }
 
 

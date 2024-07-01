@@ -9,6 +9,7 @@
     "@sap-cloud-sdk/http-client": "^3.16.0",
     "@sap-cloud-sdk/util": "^3.16.0",
     "@sap/cds": "^7",
+    "@sap/cds-common-content": "^1.4.0",
     "@sap/cds-hana": "^2",
     "@sap/low-code-event-handler": "^1.2.4",
     "@sap/mdk-tools": "^1.3.1",
